@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <!-- head start -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no, email=no, adress=no" />
+
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  
+  <script>
+    // 计算缩放比例 
+    (function () {
+      var phoneScale = parseInt(window.screen.width) / 750;
+      document.write('<meta name="viewport" content="width=750, minimum-scale=' + phoneScale + ', maximum-scale=' +
+        phoneScale + ', user-scalable=no">');
+    })();
+  </script>
+  <!-- head end -->
+  <title></title>
+  <style>
+    @-webkit-keyframes fake-keyframes {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      25% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+      }
+
+      50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+      }
+
+      75% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+      }
+    }
+
+    @keyframes fake-keyframes {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+      }
+
+      25% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+      }
+
+      50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+      }
+
+      75% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+      }
+    }
+
+    .layout-fake {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      margin-top: 400px;
+      transform: translateZ(0);
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .layout-fake img {
+      -webkit-animation: fake-keyframes 1s linear infinite;
+      animation: fake-keyframes 1s linear infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div class="layout-fake">
+      <img src='data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAFA0lEQVRoQ92bWaxdUxjHf38x1RCh
+hJAaiprnlBBJEYKIBwkSUkNoItpQUhUevBExBZXgoQ1SHog0TSpRpZSYlUhNMWsTMURaiSGN6S9f
+rMu2us+5Z9jn3LP3l9yXfc9ee/32t9a3vmmLAYntA4ATgCOAA4EpwK7AtsAWwK/AT8CPwGfAx8AH
+wCpJawcxLVU5qO3pwPnAucDefYz9BfA0sFjSG32M879b+4a1vRVwGTAP2LeqiRXG+QS4D1goaWM/
+4/cMmyBnA9cBu/cziQ7v/Ra4I8Al/d7hPf1r1na8pOeAU3p5aJ/3fAjMkbSq23F60qztMDyvjPOw
+34DXgHfSX0xyfTJIYZgmAdsDewBhzA4BZgCx78OAtROnpT1fUjynI6ka9i9gBfAEsFTSho5mUfiR
+7XgB5wAXpZWzWZsxVgPnSfqqk+f0ChsTWAmclB7yJ/A4cIuk0GAlYvtg4AbgAmDzFoN+A5whac14
+D+0JNga1vWU6ZnYClkn6cryH9fp/24cB9wMnthgjzuqzJb3c7hk9w/Y68V7vS0ZxDnAnEMddLgE8
+o52GawM7Rmb7aGAJsFcJcCzp41t5YLWDTVsoLPhy4NAS4LdiuZdZ6VrCJuCwFS+lIytnvlfSNfnF
+2sIWNPwqsGcGFufwyZJeLF6vNWwCPiY5OLnRigjqqKJrWXvYBHwVsKBk/14r6Z6x602BDY44Y8ON
+LUpY56lj0VIjYJN2I0kQ7mPuaUXQEA4JjYFNwI8BF2ba/UhSuJ2Ng43IKXzkPHiYLml1ozSbtPt8
+HDuZdhdImttE2EuBhzLYTyVNayLsDsAPJYZqSuNg01KOjOSxmXZnNhX2NuD6DPbWpsJeDDySwS5p
+KuxxwOsZ7JqmwkapZV0Gu062pwIPpw39JnDJIPNJJc565Zds75jStsWxNwRsfgi/IGkikt+VQadq
+RV4q2RiwUU2LhPWYRGlhkqRIj9ZSWmh2fcB+D+ySUe0m6btakv6T5o3MRV72XBuw75fkcQ6X9F6N
+Ycutse1ngVMzsCgpPFlj2PJz1vbdQJ6Ju1nSTTWGvR2Yv4kHZbssSlgpKdd2bdhtl/vGtiPgjX1b
+lCgDTpb0c20I00Rtt496bIflynOvtdy3LVbqf/Gs7QeBKzItLpd0Zg012z5TYTs8pqi3FiUKy/vV
+yXVMW7J9DiqVA6MPaf8MeJGkWXXRru3Osou2w1SHyS7KH+FwSIr2nJEW263yxrMlPRCT/zfES70M
+0Wy1c0Y18sdQWpndVQRaaDfYZ0laNKqqtd19rcd2RD9x5kaMW5SIjKKiPW6TxrBfiO3eq3i2TwOe
+KakWfB6FI0kRJY2E2I4KfH/1WdsLgctLiN5NRd5o1phQsV1N5T0t53hjR5YQvQ2cNZHxbtJodT0V
+KTcVOanJJcDR8xR9R1HdHqoMrFvGdmTVoyEzWuxyCaM1T1K4mgOXofRB2Y6WvadSB3gZVPiiVw9S
+y0PtcEsd4stS23sZcCTpFocHJinczkrE9kHAjUPvXUx7eCkQfYStZKwr9dHUlfpLt9Qj05Vqe2vg
+LuDKDqr2kQAIAxe9SGHIwr/+GoiEQOz3berSb3x6asWZ1q3mKvj9cDvJY8KpBTcSdREt5cFDBUyb
+DDEx3wgUp2E7lmPEvHNLfOoqoCf+648yivTtwMzwsEpyWt2Aj+Z3Pa0IbO+TPnCINtnY2/HNT1TX
+tkvGaehfbP0NIWMDth7w6nsAAAAASUVORK5CYII=' />
+    </div>
+  </div>
+</body>
+
+</html>

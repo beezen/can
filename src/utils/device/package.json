@@ -1,0 +1,6 @@
+{
+    "name": "device",
+    "version": "0.0.1",
+    "main": "./device.js",
+    "author": "xxx"
+}

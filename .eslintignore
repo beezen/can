@@ -1,0 +1,8 @@
+## 项目
+scripts
+src/utils
+src/components/api
+api.json
+
+## Node.js
+node_modules

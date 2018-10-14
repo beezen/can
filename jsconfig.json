@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx":"react",
+    "paths": {
+      "commons/*": ["./src/commons/*"],
+      "entries/*": ["./src/entries/*"],
+      "utils/*": ["./src/utils/*"],
+      "components/*": ["./src/components/*"],
+      "api/*": ["./src/components/api/*"],
+      "styles/*": ["./src/styles/*"],
+    }
+  }
+}

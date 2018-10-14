@@ -1,0 +1,91 @@
+/**
+* --------------------------------
+* Variables
+* --------------------------------
+*/
+
+//  字体大小
+@fontSizeXXXL: 38px;
+@fontSizeXXL: 32px;
+@fontSizeXL: 30px;
+@fontSizeL: 28px;
+@fontSizeS: 26px;
+@fontSizeSs: 24px;
+// 字体颜色
+@fontColorTitle: #333;
+@fontColorNormal: #666;
+@fontColorDec: #999;
+@fontColorDisabled: #ccc;
+// border颜色
+@borderColor: #eaeaea;
+// 背景色
+@bgColor: #f5f5f5;
+// 辅助颜色如按钮
+@extraColor1: #2096fe;
+@extraColor2: #f77d19;
+// 圆角
+@radius: 8px;
+
+/**
+* --------------------------------
+* Mixins
+* --------------------------------
+*/
+
+.ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/**
+* css reset
+*/
+
+html {
+  font-size: 32px;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  background-color: @bgColor;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+  font-size: 32px;
+  height: 100%;
+  background-color: @bgColor;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input, button, textarea {
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+}
+
+input::-webkit-input-placeholder {
+  color: @fontColorDisabled;
+}
+
+textarea::-webkit-input-placeholder {
+  color: @fontColorDisabled;
+}

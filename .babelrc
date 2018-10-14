@@ -1,0 +1,38 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": ["> 0.1%"]
+                },
+                "loose": true,
+                "debug": false,
+                "include": []
+            }
+        ],
+        "react"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "dynamic-import-webpack",
+        "transform-object-rest-spread", [
+            "import", {
+                "libraryName": "antd-mobile",
+                "style": true
+            }
+        ],
+        ["react-css-modules", {
+            "filetypes": {
+                ".less": {
+                    "syntax": "postcss-less"
+                }
+            },
+            "generateScopedName": "[name]_[local]_[hash:base64:5]",
+            "webpackHotModuleReloading": false,
+            "handleMissingStyleName": "warn"
+        }]
+    ]
+}
