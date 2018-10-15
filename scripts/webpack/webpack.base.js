@@ -133,10 +133,6 @@ module.exports = {
       inject: true,
       alwaysWriteToDisk: true // 将内存文件写入磁盘
     }),
-    new webpack.optimize.LimitChunkCountPlugin({
-      maxChunks: 5, // 必须大于或等于 1
-      minChunkSize: 1000
-    }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
